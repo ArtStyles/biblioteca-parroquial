@@ -20,9 +20,9 @@ export const CLASIFICACIONES_DEFAULT = [
 
 export const MESSAGES = {
   LOGIN_ERROR: "Usuario o contraseña incorrectos",
-  DELETE_CONFIRM: "¿Eliminar libro?",
+  DELETE_CONFIRM: "¿Eliminar libro? ",
   DELETE_DESCRIPTION: "Esta acción no se puede deshacer. El libro será eliminado permanentemente de la biblioteca.",
-  NO_BOOKS_FOUND: "No se encontraron libros",
+  NO_BOOKS_FOUND: "No se encontraron libros ",
   NO_BOOKS_ADMIN: "Intenta ajustar los filtros o agregar nuevos libros a la colección.",
   NO_BOOKS_PUBLIC: "Intenta ajustar los filtros de búsqueda.",
   ADMIN_MODE_INFO: "Puedes agregar, editar y eliminar libros. Los usuarios normales solo pueden consultar el catálogo.",

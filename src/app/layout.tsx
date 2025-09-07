@@ -16,6 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
+      
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`}>
         <ThemeProvider
           attribute="class"
@@ -27,7 +28,7 @@ export default function RootLayout({
             {children}
           </BibliotecaProvider>
         </ThemeProvider>
-        <Analytics />
+        <Analytics/>
       </body>
     </html>
   )
